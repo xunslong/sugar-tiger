@@ -1,0 +1,83 @@
+#rotatey1
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightblue;
+	background-color: #EFEFFF;
+	resize:both;
+	overflow:auto;
+}
+table
+{
+	/*border-style: solid;*/
+	border-width: 1px;
+	background: #F5FFFA;
+}
+table th{
+	border-style: solid;
+	border-width: 1px;
+	background: #E0EEEE;
+}
+table td{
+	border-style: solid;
+	border-width: 1px;
+	background: #FAFAFA;
+}
+body
+{
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+input[type=submit]:HOVER
+{
+	color: red;
+	
+}
+#navigation li a{text-decoration:none;}
+input.ime-off
+{
+	
+	ime-mode:inactive;
+}
+.ime-on
+{
+	ime-mode:active;
+}
+#navigation{ 
+	border:0;
+	margin:0;
+	padding:0;
+	width:90%; 
+	}
+#navigation li{ 
+	float:left; 
+	width:13%; 
+	height:30px;
+line-height:25px;
+background:#E8E8E8;
+text-align:center;
+border:solid 1px black;
+list-style-type:none;
+
+}
+#navigation li:HOVER {
+	background:#87CEEB;
+}
+
+#navigation li.current {
+	/*background:#87CEEB;*/
+}
+body { 
+	background-image: url(/xun/resource/mainbk.jpg);
+background-repeat: repeat-x,repeat-y;
+background-color:#4A87A6;
+}
+
+input[type="submit"],input[type="button"] {
+	background: #EAEAEA;
+	width: 100px;
+	height: 27px;
+}
+
